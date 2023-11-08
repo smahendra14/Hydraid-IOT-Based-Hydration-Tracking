@@ -1,1 +1,1 @@
-Mobile app from smart water bottle
+Mobile app for smart water bottle
