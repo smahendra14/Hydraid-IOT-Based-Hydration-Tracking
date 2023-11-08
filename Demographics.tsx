@@ -12,7 +12,6 @@ const Demographics = (props) => {
                     <Text style={styles.backText}> &lt; Back </Text>
                 </TouchableOpacity>
                 <Text style={styles.title}> HYDRAID </Text>
-
             </View>
             <View style={styles.subtitleContainer}>
                 <Text style={styles.subtitle}> Update your general profile: </Text>
@@ -76,8 +75,6 @@ const Demographics = (props) => {
                         style={styles.wideInput}>
                     </TextInput>
                 </View>
-
-
             </View>
             <View style={styles.divider}>
             </View>
@@ -85,37 +82,37 @@ const Demographics = (props) => {
                 <View style={styles.activityLevelHeader}>
                     <Text style={styles.sectionHeaderText}> Activity Level </Text>
                 </View>
-                <Text style={styles.questionText}> How much physical activity do you get per day? </Text>
+                <Text style={styles.questionText}>How much physical activity do you get per day? </Text>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity style={styles.oneThirdButton}>
-                        <Text style={styles.buttonText}> Low (1-2 hrs.) </Text>
+                        <Text style={styles.buttonText}>Low (1-2 hrs.)</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.oneThirdButton}>
-                        <Text style={styles.buttonText}> Moderate (3-5 hrs.) </Text>
+                        <Text style={styles.buttonText}>Moderate (3-5 hrs.)</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.oneThirdButton}>
-                        <Text style={styles.buttonText}> High (5+ hrs.) </Text>
+                        <Text style={styles.buttonText}>High (5+ hrs.)</Text>
                     </TouchableOpacity>
                 </View>
-                <Text style={styles.questionText}> How many days are you active in a week? </Text>
+                <Text style={styles.questionText}>How many days are you active in a week?</Text>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity style={styles.oneThirdButton}>
-                        <Text style={styles.buttonText}> 1-2 </Text>
+                        <Text style={styles.buttonText}>1-2</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.oneThirdButton}>
-                        <Text style={styles.buttonText}> 3-5 </Text>
+                        <Text style={styles.buttonText}>3-5</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.oneThirdButton}>
-                        <Text style={styles.buttonText}> 6-7 </Text>
+                        <Text style={styles.buttonText}>6-7</Text>
                     </TouchableOpacity>
                 </View>
-                <Text style={styles.questionText}> Are you an athlete, work outside, or in the sun a lot? </Text>
+                <Text style={styles.questionText}>Are you an athlete, work outside, or in the sun a lot?</Text>
                 <View style={styles.buttonContainer}>
                     <TouchableOpacity style={styles.leftButton}>
-                        <Text style={styles.buttonText}> Yes </Text>
+                        <Text style={styles.buttonText}>Yes</Text>
                     </TouchableOpacity>
                     <TouchableOpacity style={styles.rightButton}>
-                        <Text style={styles.buttonText}> No </Text>
+                        <Text style={styles.buttonText}>No</Text>
                     </TouchableOpacity>
                 </View>
             </View>
