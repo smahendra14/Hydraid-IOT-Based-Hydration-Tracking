@@ -155,6 +155,10 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     YNButton: {
+        backgroundColor: "#87D7EC",
+        borderRadius: 45,
+        paddingHorizontal: 5,
+        marginHorizontal: 5,
     },
     medicalDetailsRow: {
         flexDirection: "row",
